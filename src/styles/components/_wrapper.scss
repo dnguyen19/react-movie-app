@@ -1,0 +1,21 @@
+body {
+    height: 100vh;
+    background: rgb(22,22,22);
+    background: $bgcolor;
+    background-attachment: fixed;
+    color: $white;
+}
+
+.wrapper {
+    padding: 20px;
+    width: 100%;
+    max-width: $largeDesktopBreakpoint;
+    margin: 0 auto;
+}
+
+@media(min-width:$smallDesktopBreakpoint){
+    .wrapper {
+        padding: 40px;
+        padding-top: 20px;
+    }
+}

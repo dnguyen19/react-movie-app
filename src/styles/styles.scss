@@ -1,0 +1,20 @@
+// utilities
+@import "utilities/variables";
+
+// resets and defaults
+@import "base/resets";
+@import "base/fonts";
+
+// components
+@import "components/header";
+@import "components/navbar";
+@import "components/dropdown";
+@import "components/sortmenu";
+@import "components/searchbar";
+@import "components/wrapper";
+@import "components/footer";
+
+// pages
+@import "pages/about";
+@import "pages/movieGridItem";
+@import "pages/movie";

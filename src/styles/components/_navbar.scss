@@ -1,0 +1,53 @@
+nav {
+    width: 100%;
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+        border-top: 1px rgba(255, 255, 255, 0.473) solid;
+    }
+
+    li {
+        width:100%;
+        border-bottom: 1px rgba(255, 255, 255, 0.473) solid;
+        &:hover {
+            a {
+                color:$brand-color;
+                transition: 0.5s;
+            }
+        }
+    }
+
+    a {
+        margin-left: 20px;
+        line-height: 35px;
+        color:white;
+        font-weight: 600;
+    }
+
+}
+
+@media(min-width: $tabletBreakpoint){
+    nav {
+        width: 50%;
+        text-align: center;
+        ul {
+            border: none;
+            display: flex;
+            li {
+                border: none;
+            }
+        }
+        a {
+            font-size: 20px;
+        }
+
+    }
+}
+
+
+@media(min-width: $mediumDesktopBreakpoint){
+    nav {
+        width: 30%;
+    }
+}

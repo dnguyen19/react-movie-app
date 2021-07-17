@@ -1,0 +1,18 @@
+.dropdown {
+    color: $white;
+
+    select {
+        margin-left: 5px;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px $brand-color solid;
+        background-color:rgba(26, 26, 26, 0.514);
+        color: $white;
+        font-size: 16px;
+
+        option {
+            background-color: #1f1f1f;
+        }
+    }
+}
+

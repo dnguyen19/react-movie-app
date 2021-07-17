@@ -1,0 +1,22 @@
+.menu-sortby {
+    margin-top: 5px;
+    a{
+        font-size: 20px;
+        margin-right: 40px;
+        cursor: pointer;
+    }
+}
+
+@media(min-width: $tabletBreakpoint){
+    .menu-sortby {
+        text-align: center;
+    }
+}
+
+@media(min-width: $mediumDesktopBreakpoint){
+    .sub-menu {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+}

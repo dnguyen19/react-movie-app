@@ -1,0 +1,43 @@
+header {
+    margin-bottom: 35px;
+
+    .header-items {
+       display: flex; 
+       justify-content: space-between;
+
+       h1 {
+           color: $brand-color;
+           font-weight: 800;
+           font-size: 36px;
+           margin-bottom: 0;
+       }
+
+    }
+}
+
+a {
+    text-decoration: none;
+    // padding-top: 5px;
+}
+
+button {
+    p {
+        font-size: 30px;
+        margin: 0;
+        color: $brand-color;
+    }
+}
+
+@media(min-width: $tabletBreakpoint){
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+@media(min-width: $smallDesktopBreakpoint){
+    header .header-items h1 {
+        font-size: 45px;
+    }
+}
